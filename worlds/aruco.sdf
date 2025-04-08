@@ -91,8 +91,86 @@
       <elevation>0</elevation>
     </spherical_coordinates>
 
+    <!-- add 15 aruco markers on a grid and separate them by 2 meters -->
     <include>
       <uri>model://arucotag</uri>
+      <pose>0 0 0.001 0 0 0</pose>
+      <name>arucotag_0</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_1</uri>
+      <pose>2 0 0.001 0 0 0</pose>
+      <name>arucotag_1</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_2</uri>
+      <pose>4 0 0.001 0 0 0</pose>
+      <name>arucotag_2</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_3</uri>
+      <pose>6 0 0.001 0 0 0</pose>
+      <name>arucotag_3</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_4</uri>
+      <pose>0 2 0.001 0 0 0</pose>
+      <name>arucotag_4</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_5</uri>
+      <pose>2 2 0.001 0 0 0</pose>
+      <name>arucotag_5</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_6</uri>
+      <pose>4 2 0.001 0 0 0</pose>
+      <name>arucotag_6</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_7</uri>
+      <pose>6 2 0.001 0 0 0</pose>
+      <name>arucotag_7</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_8</uri>
+      <pose>0 4 0.001 0 0 0</pose>
+      <name>arucotag_8</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_9</uri>
+      <pose>2 4 0.001 0 0 0</pose>
+      <name>arucotag_9</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_10</uri>
+      <pose>4 4 0.001 0 0 0</pose>
+      <name>arucotag_10</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_11</uri>
+      <pose>6 4 0.001 0 0 0</pose>
+      <name>arucotag_11</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_12</uri>
+      <pose>0 6 0.001 0 0 0</pose>
+      <name>arucotag_12</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_13</uri>
+      <pose>2 6 0.001 0 0 0</pose>
+      <name>arucotag_13</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_14</uri>
+      <pose>4 6 0.001 0 0 0</pose>
+      <name>arucotag_14</name>
+    </include>
+    <include>
+      <uri>model://aruco_marker_15</uri>
+      <pose>6 6 0.001 0 0 0</pose>
+      <name>arucotag_15</name>
     </include>
   </world>
 </sdf>
