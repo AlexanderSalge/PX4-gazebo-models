@@ -317,7 +317,7 @@
     </include>
     <include>
       <uri>model://aruco_marker_15</uri>
-      <pose>6 6 0.001 0 0.0872665 0</pose>
+      <pose>6 6 0.035 0 0.3 0</pose>
       <name>arucotag_15_tilt_5</name>
     </include>
   </world>
