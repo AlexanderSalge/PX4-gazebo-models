@@ -317,8 +317,8 @@
     </include>
     <include>
       <uri>model://aruco_marker_15</uri>
-      <pose>6 6 0.001 0 0 0</pose>
-      <name>arucotag_15</name>
+      <pose>6 6 0.001 5 0 0</pose>
+      <name>arucotag_15_tilt_5</name>
     </include>
   </world>
 </sdf>
